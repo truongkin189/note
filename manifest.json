@@ -1,0 +1,26 @@
+{
+  "name": "Đây là note",
+  "short_name": "Đây vãn là note",
+  "description": "Đây là note",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "16": "img/loho.png",
+    "128": "img/loho.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "img/loho.png",
+      "38": "img/loho.png"
+    },
+    "default_title": "Đây là note",
+    "default_popup": "index.html"
+  },
+  "omnibox": {
+        "keyword": "hello"
+    },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "permissions": [
+
+  ]
+}
